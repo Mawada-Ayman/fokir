@@ -1,0 +1,851 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.font-Roboto{
+    font-family: "Roboto", sans-serif;
+}
+
+.font-Source-Sans{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.D-gray{
+    color: #333333;
+}
+
+.light-gray{
+    color: rgb(105, 105, 105);
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    float: left;
+    padding-right:15px ;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* start Home section */
+
+.home .nav .container .nav-logo a{
+    color: #FF305B;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.home .nav .container .nav-links ul li a{
+    color: white;
+    transition: all 1s;
+}
+
+.home .nav .container .nav-links ul li a:hover{
+    color: #FF305B;
+}
+
+.home .nav .container .nav-links ul li a span{
+    color: #FF305B;
+}
+
+.nav-links{
+    float: right;
+}
+
+.home .nav .container .nav-logo{
+    float: left;
+}
+
+
+.home{
+    background-image: url(https://routeegy.github.io/Fokir/img/slider/slider-02.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.home .nav{
+    padding-top: 20px;
+}
+.bg{
+    background: rgba(0, 0, 0, 0.7) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.home .content{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 230px;
+}
+
+.home .content h4{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.home .content h1{
+    padding-bottom: 20px;
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.home .content h2{
+    font-size: 26px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 400;
+}
+/* end Home section */
+
+
+ /* start about section  */
+
+.about{
+    margin-top: 30px;
+    position: relative;
+    top: 100px;
+ } 
+
+.about .img-about{
+    float: left;
+    width: 34%;
+    position: relative;
+    bottom: 420px;
+    left: 30px;
+    overflow: hidden;
+}
+
+
+.about .img-about .icons{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    transform: translatey(100%);
+    transition: all .5s;
+} 
+
+.img-about:hover .icons{
+    transform: translatey(0%);
+}
+
+.about .img-about .icons .fa-brands{
+    position: relative;
+    top: 50%;
+    padding-left: 30px;
+    color: #dedede;
+    transition: all .5s;
+}
+
+.about .img-about .icons .fa-brands:hover{
+    color: #FF305B;
+}
+
+.about .border{
+    border: 9px solid rgb(99, 99, 99);
+    width: 360px;
+    height: 440px;
+    border-radius: 5px;
+}
+
+
+.text-about{
+    float: right;
+    width: 50%;
+    position: relative;
+    bottom: 430px;
+}
+
+.text-about .text-top h2{
+    padding-left: 20px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.text-about .text-top h2::after{
+    background-color: #FF305B;
+    height: 30px;
+    content: " ";
+    width: 5px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.text-about .text-top p{
+    border-bottom: dashed 2px rgb(185, 185, 185);
+    padding:10px 0 ;
+    line-height: 25px;
+    font-size: 16px;
+    color:#555555 ;
+    font-weight: 400;
+}
+
+
+
+.text-about .text-buttom {
+    padding-top: 30px;
+}
+
+.text-about .text-buttom h2{
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.text-about .text-buttom h2 span{
+    color: rgb(127, 127, 127);
+    font-weight: 400;
+}
+
+
+
+.text-about .text-buttom .left{
+    float: left;
+    width: 50%;
+}
+
+
+.text-about .text-buttom .right{
+    float: right;
+    width: 50%;
+} 
+
+.text-about .text-buttom a{
+    background: #ff305b none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-right: 10px;
+    padding: 10px 24px;
+    transition: all 0.3s ease-in-out;
+    border: 0;
+    font-family:"Roboto", sans-serif ;
+}
+
+
+.text-about .text-buttom a:hover{
+    background-color: #EC2403;
+}
+
+ /* start about section  */
+
+
+/* start sec Services */
+
+.service-section{
+    position: relative;
+    bottom: 200px;
+}
+
+
+.service-section .row .single-service i{
+    color: #FF305B;
+    font-size: 40px;
+    padding-top: 20px;
+    transition: all 1s;
+}
+
+
+.service-section .row .single-service h3{
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+
+.service-section .row .single-service p{
+    line-height: 25px;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bg-grey{
+    background-color: #F1F1F1;
+    padding-top: 50px ;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding: 40px 0;
+    position: relative;
+    left: 500px;
+    width: 300px; 
+    border-bottom: 1px solid #FF305B; 
+    font-family: "Source Sans 3", sans-serif;
+    color: #333;
+}
+
+.section-title h2::after{
+    content: '';
+position: absolute;
+width: 100px;
+border-bottom: 1px solid #FF305B; /* خط فوق الأساسي */
+}
+
+.section-title h2::after{
+    top: 120px;
+    right: 100px;
+}
+
+.section-title h2::before{
+    content: '';
+position: absolute;
+width: 100px;
+border-bottom: 1px solid #FF305B; /* خط تحت الأساسي */
+}
+
+.section-title h2::before{
+    top: 100px;
+    right: 100px;
+}
+
+
+
+.single-service {
+    float: left;
+    text-align: center;
+    width: 25%;
+    transition: all .5s;
+}
+
+.single-service:hover i{
+    transform: scale(1.2);
+}
+
+.single-service:hover{
+    background-color: white;
+    
+}
+/*start sec Services*/
+
+
+
+
+/* start sec Portfolio */
+
+.text-Portfolio{
+    text-align: center;
+}
+
+.text-Portfolio .link a span{
+    color: #ff305b;
+}
+
+.text-Portfolio h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 40px;
+    padding: 40px 0;
+    text-transform: capitalize;
+    position: relative;
+    left: 500px;
+    width: 300px; 
+    border-bottom: 1px solid #FF305B; 
+}
+
+
+.text-Portfolio h2::after{
+    content: '';
+position: absolute;
+width: 100px;
+border-bottom: 1px solid #FF305B; /* خط فوق الأساسي */
+}
+
+.text-Portfolio h2::after{
+    top: 120px;
+    right: 100px;
+}
+
+.text-Portfolio h2::before{
+    content: '';
+position: absolute;
+width: 100px;
+border-bottom: 1px solid #FF305B; /* خط تحت الأساسي */
+}
+
+.text-Portfolio h2::before{
+    top: 100px;
+    right: 100px;
+}
+
+.Portfolio .text-Portfolio a{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 3px 12px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+
+.Portfolio .gallery-item{
+    float: left;
+    width: 33.3%;
+    padding-top: 40px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.gallery-item img{
+    width: 100%;
+    margin-left: 30px;
+    height: auto;
+}
+
+.action{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 40px;
+    right: 0;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.gallery-item:hover .action{
+    opacity: 1;
+}
+
+/* end sec Portfolio */
+
+/* start sec five  */
+
+.sec-five{
+    margin-top:50px ;
+    background-color: rgb(234, 234, 234);
+}
+
+
+.sec-five .content{
+
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 50px 0px;
+    
+}
+
+.sec-five .content i{
+    color: #ff305b;
+    font-size: 26px;
+    padding: 40px 0 10px 0;
+}
+
+.sec-five .content h3{
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+
+.sec-five .content h5{
+    color: #555555;
+    font-size: 16px;
+    font-family: "Source Sans 3", sans-serif;
+    padding-bottom: 20px;
+}
+/* end sec five  */
+
+
+/* start sec Feedback */
+
+.Feedback{
+    margin-top: 50px;
+}
+
+.header h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 40px;
+    padding: 40px 0;
+    position: relative;
+    left: 500px;
+    width: 320px; 
+    border-bottom: 1px solid #EC2403; 
+    font-family: "Source Sans 3", sans-serif;
+}
+
+
+.header h2::after{
+    content: '';
+position: absolute;
+width: 100px;
+border-bottom: 1px solid #FF305B; /* خط فوق الأساسي */
+}
+
+.header h2::after{
+    top: 120px;
+    right: 100px;
+}
+
+.header h2::before{
+    content: '';
+position: absolute;
+width: 100px;
+border-bottom: 1px solid #FF305B; /* خط تحت الأساسي */
+}
+
+.header h2::before{
+    top: 100px;
+    right: 100px;
+}
+
+.Feedback .bg-img{
+    background-color: #F1F1F1;
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 50px 0 50px ;
+    overflow: hidden;
+}
+
+
+
+.Feedback .bg-img h6{
+    background-color: #FF305B;
+    width: 400px;
+    height: 130px;
+    position: relative;
+    bottom: 110px;
+    right: 150px; 
+    transform: rotate(-35deg);
+}
+
+.Feedback .bg-img img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+
+
+.Feedback .bg-img .side-img{
+    float: left;
+    width: 25%;
+    position: relative;
+    bottom: 130px;
+}
+
+.Feedback .bg-img .side-text{
+    float: left;
+    width: 75%;
+    position: relative;
+    bottom: 120px;
+}
+
+.Feedback .bg-img .side-text h3{
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-family: "Source Sans 3", sans-serif;
+    color: #333;
+}
+
+.Feedback .bg-img .side-text span{
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+
+.Feedback .bg-img .side-text p {
+    font-size: 16px;
+    font-style: italic;
+    padding: 20px 0;
+    line-height: 20px;
+}
+/*end sec Feedback */
+
+
+/* start sec blog */
+
+
+.sec-blog{
+    background-color: #F1F1F1;
+    margin: 50px 0;
+}
+
+.sec-blog .heading  {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 40px;
+    padding: 40px 0;
+    position: relative;
+    left: 500px;
+    width: 310px; 
+    border-bottom: 1px solid #EC2403; 
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+
+.heading::after{
+    content: '';
+position: absolute;
+width: 100px;
+border-bottom: 1px solid #FF305B; /* خط فوق الأساسي */
+}
+
+.heading::after{
+    top: 120px;
+    right: 100px;
+}
+
+.heading::before{
+    content: '';
+position: absolute;
+width: 100px;
+border-bottom: 1px solid #FF305B; /* خط تحت الأساسي */
+}
+
+.heading::before{
+    top: 100px;
+    right: 100px;
+}
+
+
+.sec-blog .side-bottom{
+    padding: 50px 0;
+}
+
+.sec-blog .side-bottom .item-blog{
+    width: 30%;
+    background-color: white;
+    float: left;
+    margin-right: 30px;
+}
+
+.sec-blog .side-bottom .item-blog .content-blog{
+    padding: 20px;
+}
+
+.sec-blog .side-bottom .item-blog .content-blog h4{
+    padding-bottom: 10px;
+    color: #929292;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.sec-blog .side-bottom .item-blog .content-blog h2{
+    padding-bottom: 10px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    transition: all .5s;
+    font-size: 20px;
+}
+
+.sec-blog .side-bottom .item-blog .content-blog h2:hover{
+    color: #FF305B;
+}
+
+
+.sec-blog .side-bottom .item-blog .content-blog p{
+    padding-bottom: 10px;
+    color: #555555;
+    line-height: 25px;
+    font-family: "Roboto", sans-serif;
+}
+
+.sec-blog .side-bottom .item-blog .content-blog a{
+    color: #333333;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+    font-family: "Roboto", sans-serif;
+}
+
+.sec-blog .side-bottom .item-blog .content-blog a:hover{
+    color: #FF305B;
+}
+.sec-blog .side-bottom .item-blog img{
+    width: 100%;
+}
+/* end sec bog */
+
+/* start sec cotact */
+
+.contact h2  {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 40px;
+    padding: 40px 0;
+    position: relative;
+    left: 500px;
+    width: 310px; 
+    border-bottom: 1px solid #EC2403; 
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+
+.contact h2::after{
+    content: '';
+position: absolute;
+width: 100px;
+border-bottom: 1px solid #FF305B; /* خط فوق الأساسي */
+}
+
+.contact h2::after{
+    top: 120px;
+    right: 100px;
+}
+
+.contact h2::before{
+    content: '';
+position: absolute;
+width: 100px;
+border-bottom: 1px solid #FF305B; /* خط تحت الأساسي */
+}
+
+.contact h2::before{
+    top: 100px;
+    right: 100px;
+}
+
+.contact form{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+
+.contact form input,textarea{
+    margin-bottom: 20px;
+    border-radius:5px ;
+    border: none;
+    border: #d6d6d6 2px solid;
+}
+
+.contact form .input-name,.input-email{
+    width: 40%;
+    height: 30px;
+}
+
+.input-name{
+    margin-right: 40px;
+    margin-left: 50px;
+}
+
+.contact form .input-supject,textarea{
+    height: 30px;
+    margin-left: 50px;
+    width: 86%;
+}
+
+
+.contact form textarea{
+    height: 100px;
+    padding-top: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.contact form button{
+    margin-left: 50px;
+    padding: 10px 20px;
+    background-color: #ff305b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    transition: all .5s;
+}
+
+.contact form button:hover{
+    background-color: #EC2403;
+}
+/* end sec cotact */
+
+
+/* footer */
+
+.footer{
+    background-color: #333333;
+    text-align: center;
+}
+
+
+.footer .container .icon-footer{
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.footer .container .icon-footer p{
+    color: white;
+    padding-top: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer .container .icon-footer p span{
+    color: #FF305B;
+}
+
+.footer .container .icon-footer i{
+    padding-right: 20px;
+}
+
+.icon-footer a{
+    transition: all .5s;
+}
+
+.icon-footer a:hover{
+    color: #FF305B;
+}
+
+
+
+
+
+
+
+/* footer */
